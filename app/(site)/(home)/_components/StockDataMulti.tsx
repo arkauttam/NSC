@@ -14,7 +14,7 @@ import {
 } from 'chartjs-chart-financial';
 import 'chartjs-adapter-date-fns';
 import { Card, CardContent } from '@/components/ui/card';
-import { SymbolData } from '@/schemas/nsc/nsc-type';
+import { SymbolData } from '@/schemas/nse/nse-type';
 import { DataTable } from './DataTable';
 import { TableColumns } from './TableColumns';
 import Container from '@/components/Container';
@@ -114,7 +114,7 @@ const StockDataMulti = () => {
     return (
         <Container>
             <div className="text-2xl font-bold mb-6 text-center my-8">
-                <h2 className='text-gray-700'>Live NSC Financial Data</h2>
+                <h2 className='text-gray-700'>Live NSE Financial Data</h2>
 
             </div>
 
