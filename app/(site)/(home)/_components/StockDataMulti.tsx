@@ -115,7 +115,6 @@ const StockDataMulti = () => {
         <Container>
             <div className="text-2xl font-bold mb-6 text-center my-8">
                 <h2 className='text-gray-700'>Live NSE Financial Data</h2>
-
             </div>
 
             {/* Merged Table */}
