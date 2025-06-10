@@ -1,4 +1,3 @@
-// components/charts/FullCandlestickChart.tsx
 import { Chart } from 'react-chartjs-2';
 import { StockValue } from '@/schemas/nse/nse-type';
 
