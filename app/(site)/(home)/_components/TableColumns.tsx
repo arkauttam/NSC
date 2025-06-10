@@ -9,7 +9,6 @@ import { StockValue } from "@/schemas/nse/nse-type";
 
 ChartJS.register(...registerables);
 
-// Define the type for the data used in the table
 interface FinancialData {
   symbol: string;
   currency_base: string;
@@ -50,7 +49,7 @@ export const TableColumns = (
   },
   {
     accessorKey: "currency_base",
-    header: ({ column }) => (
+    header: () => (
       <Button
         variant="ghost"
         className="px-1"
@@ -61,7 +60,7 @@ export const TableColumns = (
   },
   {
     accessorKey: "type",
-    header: ({ column }) => (
+    header: () => (
       <Button
         variant="ghost"
         className="px-1"
@@ -94,7 +93,7 @@ export const TableColumns = (
   },
   {
     accessorKey: "open",
-    header: ({ column }) => (
+    header: () => (
       <Button
         variant="ghost"
         className="px-1"
@@ -108,7 +107,7 @@ export const TableColumns = (
   },
   {
     accessorKey: "close",
-    header: ({ column }) => (
+    header: () => (
       <Button
         variant="ghost"
         className="px-1"
